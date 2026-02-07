@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isRangeError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-range-error@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-range-error/tags). For example,
+
+```javascript
 import isRangeError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-range-error@v0.2.3-esm/index.mjs';
 ```
 
@@ -94,7 +99,7 @@ var bool = isRangeError( new RangeError( 'beep' ) );
 <body>
 <script type="module">
 
-import isRangeError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-range-error@v0.2.3-esm/index.mjs';
+import isRangeError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-range-error@esm/index.mjs';
 
 var bool = isRangeError( new RangeError( 'range error' ) );
 // returns true
