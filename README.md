@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isRangeError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-range-error@deno/mod.js';
+import isRangeError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-range-error@v0.2.3-deno/mod.js';
 ```
 
 #### isRangeError( value )
@@ -89,7 +89,7 @@ var bool = isRangeError( new RangeError( 'beep' ) );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isRangeError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-range-error@deno/mod.js';
+import isRangeError from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-range-error@v0.2.3-deno/mod.js';
 
 var bool = isRangeError( new RangeError( 'range error' ) );
 // returns true
